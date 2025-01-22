@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - PropertiKu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body >
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="gambar/logo properti.jpg" width="40" height="40" class="d-inline-block align-top" alt="">
+                PropertiKu
+              </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="properties.html">Properti</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">	
+		<div class="row centerDiv mt-5">
+			<div class="col-sm-12 my-auto">
+				<div class="card border-0">
+				  <div class="row">
+				    <div class="col-md-8">
+				      <div class="card-body">
+				      	<img src="gambar/gedung.jpg" class="img-fluid rounded-start shadow" width="1000" alt="...">
+				      </div>
+				    </div>
+				    <div class="col-md-4 ">
+				      <div class="card-body">
+				      	<div class=" text-center">
+				      		<img src="gambar/logo properti.jpg" class="img-fluid" width="150" alt="" title="Properti">
+				      		<h2 class="h5 mt-1">Login</h2>
+				      	</div>
+			      		<form>
+			      		  <div class="mb-3">
+                            <div id="emailHelp" class="form-text">Masukkan Username Anda</div>
+			      		    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+			      		  </div>
+			      		  <div class="mb-3">
+                            <div id="emailHelp" class="form-text">Masukkan Password Anda</div>
+			      		    <input type="password" class="form-control" id="exampleInputPassword1">
+			      		  </div>
+                            <div class="mb-3 form-group">
+                                <div id="emailHelp" class="form-text">Login sebagai</div>
+                                <select class="form-control" id="role" required>
+                                    <option value="">Pilih peran</option>
+                                    <option value="user">Pengguna Umum</option>
+                                    <option value="agent">Pemilik Properti / Agen</option>
+                                </select>
+                            </div>
+			      		  <div class="mb-3 form-check">
+                            <div class="text-center mt-3">
+                                <p>Belum punya akun? <a href="formpendaftaran.html">Daftar di sini</a></p>
+                            </div>
+			      		    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+			      		    <label class="form-check-label" for="exampleCheck1">Ingat Saya</label>
+			      		  </div>
+			      		  <button type="submit" class="btn btn-primary w-100">Masuk</button>
+			      		</form>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

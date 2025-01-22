@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Properti</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* CSS Kustom */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url(img_walpaper.jpg.jpeg), url(wlpr.jpeg);
+        }
+
+        .navbar {
+            background-image: url(img_walpaper.jpg.jpeg), url(wlpr.jpeg);
+        }
+
+
+
+        .card {
+            border: none;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 4px 8px rgb(19, 3, 252);
+        }
+
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-body {
+            background-color: #fdfbfb;
+        }
+
+        .card-title {
+            color: #007bff;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+        footer {
+            background-image: url(img_walpaper.jpg.jpeg), url(wlpr.jpeg);
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="jualproperti.html">Jual Properti</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container my-5">
+
+        <section id="jual" class="mb-5">
+            <h2 class="text-center mb-4">Sewa Properti</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="gambar/b.jpg" alt="Properti 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Properti 1</h5>
+                            <p class="card-text">Rumah modern dengan 3 kamar tidur dan 2 kamar mandi di kawasan strategis.</p>
+                            <a href="#" class="btn btn-primary">Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="gambar/c.jpg" alt="Properti 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Properti 2</h5>
+                            <p class="card-text">Apartemen mewah di pusat kota dengan pemandangan spektakuler.</p>
+                            <a href="#" class="btn btn-primary">Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="gambar/d.jpg" alt="Properti 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Properti 3</h5>
+                            <p class="card-text">Vila tepi pantai dengan fasilitas lengkap dan pemandangan laut.</p>
+                            <a href="#" class="btn btn-primary">Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sewa" class="mb-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="gambar/e.jpg" alt="Properti A">
+                        <div class="card-body">
+                            <h5 class="card-title">Properti 4</h5>
+                            <p class="card-text">Rumah minimalis untuk disewa, dekat dengan fasilitas umum.</p>
+                            <a href="#" class="btn btn-primary">Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="gambar/f.jpg" alt="Properti B">
+                        <div class="card-body">
+                            <h5 class="card-title">Properti 5</h5>
+                            <p class="card-text">Apartemen studio modern di area bisnis utama.</p>
+                            <a href="#" class="btn btn-primary">Detail</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="gambar/g.jpg" alt="Properti C">
+                        <div class="card-body">
+                            <h5 class="card-title">Properti 6</h5>
+                            <p class="card-text">Kondominium dengan akses kolam renang dan pusat kebugaran.</p>
+                            <a href="#" class="btn btn-primary">Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+        <div class="footer">
+            <p>&copy; 2025 PropertiKu. All Rights Reserved. Designed for Elegance and Comfort.</p>
+        </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
